@@ -1,0 +1,63 @@
+.navbar.navbar-default {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar.navbar-default .navbar-toggle {
+    margin-top: 32px;
+}
+.navbar.navbar-default .navbar-brand {
+    height: auto;
+    padding: 22px 15px 21px;
+}
+
+.imgrec{
+    border-radius: 50%;position: relative;float: left;
+}
+
+.textrec{
+    text-align: center;align-content: right;align-self: right;align-items: right;
+}
+
+.pararec{
+    position:relative;float:right;text-align:right;color: #333;
+}
+
+.spanrec{
+    text-align: justify;position: relative;float: right;
+}
+
+.para2rec{
+    position:relative;float:right;text-align:right;color: #333;
+}
+
+.span2rec{
+    position:relative;float:right;text-align: justify;
+}
+
+
+.overallpadding{
+    padding:20px 90px;
+}
+
+header .intro-text .name {
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.backgroundblack{
+    background-color: #222;
+    color:White;
+}
+
+.paddingTop{
+    padding:20px 0px;
+}
+
+.backgroundwhite{
+    background-color: #FFFFFF;
+    color:#333;
+}
