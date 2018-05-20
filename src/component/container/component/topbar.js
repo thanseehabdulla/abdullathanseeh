@@ -33,7 +33,7 @@ export default class TopBar extends Component {
                                 <li><a href="https://github.com/thanseehabdulla">Git</a></li>
                                 <li><a href="#">Tutorials</a></li>
                                 <li><a href="#">Design Assets</a></li>
-                                <li><a href="myresume.pdf">Why Should You Hire Me? Checkout My Resume</a>
+                                <li><a href={process.env.PUBLIC_URL + '/myresume.pdf'} target="_blank">Why Should You Hire Me? Checkout My Resume</a>
                                 </li>
 
                             </ul>
@@ -51,7 +51,9 @@ export default class TopBar extends Component {
                 <Portfolio/>
                 <About/>
                 <Contact/>
+
                 <Footer/>
+
             </div>
         );
     }

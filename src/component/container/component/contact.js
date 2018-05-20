@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './topbar.css';
+import Form from './form/contactus'
+
 
 export default class Contact extends Component {
     render() {
@@ -14,7 +16,7 @@ export default class Contact extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-8 col-lg-offset-2">
+                            <div className="col-lg-8 col-lg-offset-2" style={{fontSize:'16px'}}>
                                 <h4> Mail me at: thanseehabdulla@gmail.com </h4>
                                 <h4> Contact Number : +919847444106</h4>
                                 <h4> Lives in : Cochin , Kerela </h4>
@@ -23,7 +25,7 @@ export default class Contact extends Component {
                         </div>
                     </div>
 
-
+            <Form/>
 
             </div>
         );

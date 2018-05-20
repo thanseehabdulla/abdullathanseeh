@@ -7,7 +7,7 @@ import logo from './../../../images/logo2.png'
 export default class Footer extends Component {
     render() {
         return (
-            <div className="App backgroundblack paddingTop" style={{paddingBottom:'0px'}}>
+            <div className="App backgroundblack paddingTop" style={{paddingBottom:'0px',fontSize:'16px'}}>
 
                     <div className="footer-above">
                         <div className="container">
@@ -114,7 +114,11 @@ export default class Footer extends Component {
                             </div>
                         </div>
                     </div>
-
+                <div className="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+                    <a className="btn btn-primary" href="#">
+                        <i className="fa fa-chevron-up"></i>
+                    </a>
+                </div>
 
             </div>
         );

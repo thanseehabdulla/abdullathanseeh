@@ -13,21 +13,19 @@ import {Carousel} from '3d-react-carousal';
 import PorfolioDetail from './portfoliodetail'
 
 
-
 let slides = [
-    <video width="420" height="440" controls>
+    <video className="mediaplay" controls>
         <source src={ds2} type="video/mp4"/>
-    </video>, <video width="420" height="440" controls>
+    </video>, <video className="mediaplay" controls>
         <source src={ds1} type="video/mp4"/>
     </video>,
-    <video width="420" height="440" controls>
+    <video className="mediaplay" controls>
         <source src={ds3} type="video/mp4"/>
     </video>,
     <img src={cabin} alt="1"/>,
     <img src={cake} alt="2"/>,
     <img src={circus} alt="3"/>,
     <img src={game} alt="4"/>,
-
 
 
 ];
@@ -97,7 +95,7 @@ export default class Portfolio extends Component {
                     </div>
                 </div>
 
-<PorfolioDetail/>
+                <PorfolioDetail/>
             </div>
         );
     }
