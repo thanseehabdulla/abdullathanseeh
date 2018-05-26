@@ -22,6 +22,13 @@ let slides = [
     <video className="mediaplay" controls>
         <source src={ds3} type="video/mp4"/>
     </video>,
+    <iframe className="mediaplay" src="https://www.youtube.com/embed/aYKqEKtrMDI" frameBorder="0"
+            allow="autoplay; encrypted-media" allowFullScreen></iframe>,
+    <iframe className="mediaplay" src="https://www.youtube.com/embed/TGijN-kkKWU" frameBorder="0"
+            allow="autoplay; encrypted-media" allowFullScreen></iframe>,
+    <iframe className="mediaplay" src="https://www.youtube.com/embed/7PVtaCbD06U" frameBorder="0"
+            allow="autoplay; encrypted-media" allowFullScreen>
+</iframe>,
     <img src={cabin} alt="1"/>,
     <img src={cake} alt="2"/>,
     <img src={circus} alt="3"/>,
@@ -38,20 +45,20 @@ export default class Portfolio extends Component {
             <div className="App backgroundblack paddingTop" style={{backgroundColor: 'darkcyan', paddingBottom: '0px'}}>
 
 
-                <div class="container">
-                    <div class="row">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-lg-12 text-center">
+                        <div className="col-lg-12 text-center">
                             <h2>Available Apps Games And Websites</h2>
-                            <hr class="star-primary"/>
+                            {/*<hr className="star-primary"/>*/}
                         </div>
                     </div>
                     <Carousel slides={slides} autoplay={true}/>
 
                 </div>
 
-                <div className="row backgroundwhite" style={{paddingTop: '10px'}}>
-                    <div className="col-sm-4 portfolio-item">
+                <div className="row backgroundwhite" style={{paddingTop: '10px',marginRight:'0px'}}>
+                    <div className="col-xs-12 col-sm-4 portfolio-item">
                         <a href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
                             <div className="caption">
                                 <div className="caption-content">
@@ -61,7 +68,7 @@ export default class Portfolio extends Component {
                             <img src={cabin} className="img-responsive" alt="Cabin"/>
                         </a>
                     </div>
-                    <div className="col-sm-4 portfolio-item">
+                    <div className="col-xs-12 col-sm-4 portfolio-item">
                         <a href="#portfolioModal2" className="portfolio-link" data-toggle="modal">
                             <div className="caption">
                                 <div className="caption-content">
@@ -71,7 +78,7 @@ export default class Portfolio extends Component {
                             <img src={circus} className="img-responsive" alt="Slice of cake"/>
                         </a>
                     </div>
-                    <div className="col-sm-4 portfolio-item">
+                    <div className="col-xs-12 col-sm-4 portfolio-item">
                         <a href="#portfolioModal3" className="portfolio-link" data-toggle="modal">
                             <div className="caption">
                                 <div className="caption-content">
@@ -82,7 +89,7 @@ export default class Portfolio extends Component {
                         </a>
                     </div>
 
-                    <div className="col-sm-4 portfolio-item">
+                    <div className="col-xs-12 col-sm-4 portfolio-item">
                         <a href="#portfolioModal6" className="portfolio-link" data-toggle="modal">
                             <div className="caption">
                                 <div className="caption-content">

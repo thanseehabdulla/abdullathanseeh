@@ -12,23 +12,23 @@ export default class PortfolioDetail extends Component {
         return (
             <div className="App backgroundwhite" >
                 {/*Portfolio Modals */}
-                <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <div class="lr">
-                                <div class="rl">
+                <div className="portfolio-modal modal fade" id="portfolioModal1" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
                                 </div>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-8 col-lg-offset-2">
-                                    <div class="modal-body">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-8 col-lg-offset-2">
+                                    <div className="modal-body">
                                         <h2>jo mon adventure in kerela: The game of super heroes</h2>
-                                        <hr class="star-primary"/>
-                                        <img src={cabin} class="img-responsive img-centered" alt=""/>
+                                        <hr className="star-primary"/>
+                                        <img src={cabin} className="img-responsive img-centered" alt=""/>
                                         <p><a style={{color:'#333'}} href="https://play.google.com/store/apps/details?id=com.boontaran.games.jomon&hl=en">GooglePlay</a></p>
-                                        <ul class="list-inline item-details">
+                                        <ul className="list-inline item-details">
                                             <li>Client:
                                                 <strong>5-18 Age
                                                 </strong>
@@ -42,7 +42,7 @@ export default class PortfolioDetail extends Component {
                                                 </strong>
                                             </li>
                                         </ul>
-                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                                        <button type="button" className="btn btn-default" data-dismiss="modal"><i className="fa fa-times"></i>
                                             Close
                                         </button>
                                     </div>
@@ -51,23 +51,23 @@ export default class PortfolioDetail extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <div class="lr">
-                                <div class="rl">
+                <div className="portfolio-modal modal fade" id="portfolioModal2" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
                                 </div>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-8 col-lg-offset-2">
-                                    <div class="modal-body">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-8 col-lg-offset-2">
+                                    <div className="modal-body">
                                         <h2>Shaaji Paapan</h2>
-                                        <hr class="star-primary"/>
-                                        <img src={circus} class="img-responsive img-centered" alt=""/>
+                                        <hr className="star-primary"/>
+                                        <img src={circus} className="img-responsive img-centered" alt=""/>
                                         <p><a style={{color:'#333'}} href="https://play.google.com/store/apps/details?id=com.beta.supercat&hl=en">GooglePlay</a></p>
-                                        <ul class="list-inline item-details">
+                                        <ul className="list-inline item-details">
                                             <li>Client:
                                                 <strong>5-18 Age
                                                 </strong>
@@ -81,7 +81,7 @@ export default class PortfolioDetail extends Component {
                                                 </strong>
                                             </li>
                                         </ul>
-                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                                        <button type="button" className="btn btn-default" data-dismiss="modal"><i className="fa fa-times"></i>
                                             Close
                                         </button>
                                     </div>
@@ -90,23 +90,23 @@ export default class PortfolioDetail extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <div class="lr">
-                                <div class="rl">
+                <div className="portfolio-modal modal fade" id="portfolioModal3" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
                                 </div>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-8 col-lg-offset-2">
-                                    <div class="modal-body">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-8 col-lg-offset-2">
+                                    <div className="modal-body">
                                         <h2>Cut The Infected Fruit</h2>
-                                        <hr class="star-primary"/>
-                                        <img src={game} class="img-responsive img-centered" alt=""/>
+                                        <hr className="star-primary"/>
+                                        <img src={game} className="img-responsive img-centered" alt=""/>
                                         <p><a style={{color:'#333'}} href="https://play.google.com/store/apps/details?id=com.jomon.fruitslicing&hl=en">GooglePlay</a></p>
-                                        <ul class="list-inline item-details">
+                                        <ul className="list-inline item-details">
                                             <li>Client:
                                                 <strong>5-18 Age
                                                 </strong>
@@ -120,7 +120,7 @@ export default class PortfolioDetail extends Component {
                                                 </strong>
                                             </li>
                                         </ul>
-                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                                        <button type="button" className="btn btn-default" data-dismiss="modal"><i className="fa fa-times"></i>
                                             Close
                                         </button>
                                     </div>
@@ -131,23 +131,23 @@ export default class PortfolioDetail extends Component {
                 </div>
 
 
-                <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <div class="lr">
-                                <div class="rl">
+                <div className="portfolio-modal modal fade" id="portfolioModal6" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
                                 </div>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-8 col-lg-offset-2">
-                                    <div class="modal-body">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-8 col-lg-offset-2">
+                                    <div className="modal-body">
                                         <h2>Web App Viewer</h2>
-                                        <hr class="star-primary"/>
-                                        <img src={cake} class="img-responsive img-centered" alt=""/>
+                                        <hr className="star-primary"/>
+                                        <img src={cake} className="img-responsive img-centered" alt=""/>
                                         <p><a style={{color:'#333'}} href="https://play.google.com/store/apps/details?id=com.app.ats.com.bookmarkme&hl=en">GooglePlay</a></p>
-                                        <ul class="list-inline item-details">
+                                        <ul className="list-inline item-details">
                                             <li>Client:
                                                 <strong>18+ Age
                                                 </strong>
@@ -161,8 +161,8 @@ export default class PortfolioDetail extends Component {
                                                 </strong>
                                             </li>
                                         </ul>
-                                        <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i
-                                            class="fa fa-times"></i> Close
+                                        <button id="btnSubmit" type="button" className="btn btn-default" data-dismiss="modal"><i
+                                            className="fa fa-times"></i> Close
                                         </button>
                                     </div>
                                 </div>

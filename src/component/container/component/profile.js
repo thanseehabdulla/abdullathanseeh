@@ -14,7 +14,7 @@ export default class Profile extends Component {
                         <div className="intro-text textrec"
                              >
                             <h1 className="name">Abdulla Thanseeh</h1>
-                            <hr className="star-light" style={{'textAlign':'justify'}}/>
+                            {/*<hr className="star-light" style={{'textAlign':'justify'}}/>*/}
                                 <h6> Software Developer (2.7+ yrs)</h6>
                                 <h6> Work at Sinergia media labs</h6>
                                 <hr style={{borderColor:'#0000009e'}}/>
@@ -23,13 +23,13 @@ export default class Profile extends Component {
                                 <p className="pararec" >
                                     <b>Overview:</b></p>
                                 <span className="spanrec" >
-                                    Intermediate in React-Redux-Saga-firebase,Expert in MEAN(Mongodb,Expressjs,Angular,Node)STACK development -Intermediate in Wordpress-Expert in Android App Developement -Intermediate Ionic App Developement -
+                                    Hand on experience in React-Redux-Saga-firebase,Hand on experience in MEAN(Mongodb,Expressjs,Angular,Node)STACK development -Hand on experience in Wordpress-Hand on experience in Android App Developement -Hand on experience Ionic App Developement -
                                     Slim3 Oauth2 instant mobile rest API Generation-
-                                    Intermediate in Graphic design(Krita)-
+                                    Hand on experience in Graphic design(Krita)-
                                     LibGDX 2D adventure Game Developer
-                                    -terminal Expert in Linux -
-                                    Git Intermediate -beginner in Asterisk free pbx setup -
-                                    Beginner in Godot game engine development </span>
+                                    -terminal Hand on experience in Linux -
+                                    Git Hand on experience -Hand on experience in Asterisk free pbx setup -
+                                    Hand on experience in Godot game engine development </span>
                                 <br/>
                                 <hr/>
 

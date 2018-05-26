@@ -4,9 +4,10 @@ import PropTypes from 'prop-types'
 
 // Stateless component / Functional component
 const Field = (props) => (
-    <div>
-        <label>{props.label}</label>
+    <div className="paddingfield" style={{margin:'10px 0px'}}>
+        <label className="">{props.label}</label>
         <input
+            className="input1"
             onChange={props.onChange}
             type={props.textarea ? 'textarea' : 'text'}
             value={props.value}

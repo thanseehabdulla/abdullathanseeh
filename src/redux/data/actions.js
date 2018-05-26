@@ -5,9 +5,13 @@ export const DATA_ACTIONS = {
     API_CALL_SUCCESS: "API_CALL_SUCCESS",
     API_CALL_FAILURE: "API_CALL_FAILURE",
     API_FOR_MAILSERVICE:"API_FOR_MAILSERVICE",
-    send_Mail(data){
-        type:DATA_ACTIONS.API_FOR_MAILSERVICE,
-        data
-    }
+
+
+    send_Mail:(data)=>{
+        return{
+            type:DATA_ACTIONS.API_FOR_MAILSERVICE,
+            data
+        }
+    },
 
 }

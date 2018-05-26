@@ -15,7 +15,7 @@ export default class Footer extends Component {
                                 <div className="footer-col col-md-4">
                                     <h3>Location</h3>
                                     <p>Kasaragod
-                                        <br/>Kerela, IND 671123</p>
+                                        <br/>Kerala, IND 671123</p>
                                 </div>
                                 <div className="footer-col col-md-4">
                                     <h3>Around the Web</h3>
@@ -95,7 +95,7 @@ export default class Footer extends Component {
                                 </div>
                                 <div className="footer-col col-md-4">
                                     <h3>About ATS App Studios</h3>
-                                    <p style={{textAlign: 'justify'}}>ATS App Studios is a App store account established
+                                    <p style={{textAlign: 'justify',fontSize:'14px'}}>ATS App Studios is a App store account established
                                         since 2015 when Abdulla Thanseeh got in the
                                         field of tech and was inspired by some of the inventive ideas and thought of his
                                         friends to

@@ -8,7 +8,7 @@ import Contact from './contact'
 import Footer from './footer'
 import './animate.css'
 import './portfolio.css'
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,16 +29,20 @@ export default class TopBar extends Component {
                         </div>
                         <div className="collapse navbar-collapse" id="myNavbar">
                             <ul className="nav navbar-nav">
-                                <li className="active"><a href="#">Home</a></li>
+                                <li className="active"><a href="/">Home</a></li>
                                 <li><a href="https://github.com/thanseehabdulla">Git</a></li>
-                                <li><a href="#">Tutorials</a></li>
-                                <li><a href="#">Design Assets</a></li>
-                                <li><a href={process.env.PUBLIC_URL + '/myresume.pdf'} target="_blank">Why Should You Hire Me? Checkout My Resume</a>
+                                <li><a href="/tutorials">Tutorials</a></li>
+                                <li><a href="/graphics">Design Assets</a></li>
+                                <li><Link
+                                    to="route"
+                                    onClick={(event) => { event.preventDefault(); window.open(process.env.PUBLIC_URL + '/myresume.pdf')}}>
+                                    <a href={process.env.PUBLIC_URL + '/myresume.pdf'} target="_blank">Why Should You Hire Me? Checkout My Resume</a>
+                                </Link>
                                 </li>
 
                             </ul>
                             <ul className="nav navbar-nav navbar-right">
-                                <li><a href="#"><span className="glyphicon glyphicon-user"></span> If Interested, Donate
+                                <li><a href="/donate"><span className="glyphicon glyphicon-user"></span> If Interested, Donate
                                     Us to Feed Poor</a></li>
                                 {/*<li><a href="#"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>*/}
                             </ul>

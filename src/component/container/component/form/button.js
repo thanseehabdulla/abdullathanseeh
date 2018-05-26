@@ -29,12 +29,14 @@ class Button extends Component {
     logFormDataToConsole(event) {
         console.log('Form Values', this.props.formValues);
         this.setState({isClicked: true});
-        send_Mail(this.props.formValues)
+        const {send_Mail} = this.props;
+        send_Mail(this.props.formValues);
+        alert("Hurry ! An email has been sent to thanseeh")
     }
 
     render() {
         return (
-            <button
+            <button className="contact1-form-btn"
                 disabled={this.state.isClicked}
                 onClick={this.logFormDataToConsole}
             >
@@ -44,5 +46,4 @@ class Button extends Component {
     }
 }
 
-export default connect(
-    state=>{},{send_Mail})(Button)
+export default connect((state)=>{return({})},{send_Mail})(Button)

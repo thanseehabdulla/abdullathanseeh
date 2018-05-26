@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // Externals
 import Field from './field';
 import Button from './button';
-
+import './contact.css'
 
 class Form extends Component {
     constructor(props) {
@@ -25,7 +25,11 @@ class Form extends Component {
 
     render() {
         return (
-            <div>
+            <div >
+                <span className="contact1-form-title">
+					GET IN TOUCH
+				</span>
+                <hr/>
                 {/* Name field */}
                 <Field
                     label="Name"
